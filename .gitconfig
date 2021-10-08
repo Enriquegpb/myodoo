@@ -1,0 +1,7 @@
+[user]
+	email = fpemlktz@gmail.com
+	name = Enrique
+[core]
+	editor = nano
+[credential]
+	helper = store
