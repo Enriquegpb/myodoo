@@ -8,6 +8,7 @@ pip3 install wheel
 pip3 install -r odoo14/requirements.txt
 deactivate
 exit
+<<<<<<< HEAD
 git init
 git branch 
 git add .
@@ -66,3 +67,49 @@ ls
 ls dumps/
 sudo mv /home/dammie/backup_db1.zip.gpg /opt/odoo/ 
 exit
+=======
+>>>>>>> parent of d1d78b35... subiendo la database encriptada
+cd /opt/
+cd odoo/
+clear
+pwd
+git init 
+git add .
+git commit -am "subiendo la base encriptada real"
+clear
+git push origin master 
+ls /opt/odoo/
+ls /opt/odoo/dumps/
+rm /opt/odoo/dumps/
+rm /opt/odoo/dumps/backup_db1.zip
+clear
+pwd
+commit -am "eliminado de bbdd desencriptada"
+git commit -am "eliminado de bbdd desencriptada"
+git push origin master 
+ls -la
+git log
+git revert d1d78b354fee
+git log
+clear
+ls odoo14-custom-addons/
+ls
+exit
+pwd
+git status 
+clear
+git status 
+git commit -am "bbddv1"
+git config --global user.name "Enriquegpb"
+git config --global user.email "enriquegpb5@gmail.com"
+git config --global core.editor nano
+ls -la
+git config --global credential.helper store
+clear
+git add .
+sudo git add .
+exit
+pwd
+git commit -am "bbddv1"
+git sta
+git status 
